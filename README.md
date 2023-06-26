@@ -2,7 +2,7 @@
 
 This is the working area for the individual Internet-Draft, "Off-The-Record HTTP Header".
 
-* [Editor's Copy](https://brave-experiments.github.io/draft-sahib-httpbis-off-the-record/#go.draft-sahib-httpbis-off-the-record.html)
+* [Editor's Copy](https://jubilant-train-691y136.pages.github.io/index.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-sahib-httpbis-off-the-record)
 * [Individual Draft](https://datatracker.ietf.org/doc/html/draft-sahib-httpbis-off-the-record)
 * [Compare Editor's Copy to Individual Draft](https://brave-experiments.github.io/draft-sahib-httpbis-off-the-record/#go.draft-sahib-httpbis-off-the-record.diff)
