@@ -9,19 +9,19 @@ number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+area: "Applications and Real-Time"
+workgroup: "HTTP"
 keyword:
  - next generation
  - unicorn
  - sparkling distributed ledger
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+  group: "HTTP"
+  type: "Working Group"
+  mail: "ietf-http-wg@w3.org"
+  arch: "https://lists.w3.org/Archives/Public/ietf-http-wg/"
+  github: "brave-experiments/draft-sahib-httpbis-off-the-record"
+  latest: "https://brave-experiments.github.io/draft-sahib-httpbis-off-the-record/draft-sahib-httpbis-off-the-record.html"
 
 author:
  -
