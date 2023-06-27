@@ -29,7 +29,17 @@ normative:
 
 informative:
 
-
+  FREED_ET_AL:
+    title: "“A Stalker’s Paradise”: How Intimate Partner Abusers Exploit Technology"
+    date: 2018
+    target: "https://dl.acm.org/doi/pdf/10.1145/3173574.3174241"
+    author:
+      - ins: D. Freed
+      - ins: J. Palmer
+      - ins: D. Minchala
+      - ins: K. Levy
+      - ins: T. Ristenpart
+      - ins: N. Dell
 
 --- abstract
 
@@ -42,28 +52,35 @@ This document introduces an HTTP response header field that allows a server to s
 
 Browsers record information about users' browsing behavior and interests, both explicitly (e.g. browsing history, DOM storage, cookies) and implicitly (e.g. cache state, saved credentials, URL auto-complete). In situations where an attacker has physical access to the victim's device, this information constitutes a privacy leak and can be used for surveillance. This kind of physical access is especially common in cases of intimate partner violence {{?IPV=I-D.celi-irtf-hrpc-ipvc}}. Client software currently provide some tools to help users hide their activity on sensitive sites, such as incognito/private mode or the ability to edit browsing history. However, these tools are insufficient to protect people whose safety depends on it: they either hide too much (thus inviting suspicion from abusers), too little (thus allowing abusers to recover browsing history), or are otherwise difficult to use successfully in a stressful situation.
 
-The `Request-OTR` HTTP response header allows websites to optionally describe their own content as "sensitive." The client can then choose to not record the site visit and remove evidence of the site visit by preventing state from persisting to disk (such as {{?COOKIES=I-D.ietf-httpbis-rfc6265bis}}).
+The `Request-OTR` HTTP response header allows websites to optionally describe their own content as "sensitive." The client can then choose to not record the site visit and remove evidence of the site visit by preventing state from persisting to disk (such as {{?COOKIES=I-D.ietf-httpbis-rfc6265bis}}). See {{comparison}} for a comparison with other approaches a client can take to remove evidence of accessing a sensitive website.
 
 
 # Conventions and Definitions
 
 {::boilerplate bcp14-tagged}
 
-* `sensitive`: TODO.
+* `UI-bound adversary`: An attacker who has authenticated access to a victim's client device via standard user interfaces {{FREED_ET_AL}}.
+* `sensitive`: This document uses "sensitive" content to mean anything that a website thinks is worth hiding from a UI-bound adversary. Websites self-report their content as sensitive.
 
-# Motivation
+# Request-OTR Response Header Field
 
-## Comparisons With Other Client-Side Approaches
+The Request-OTR response header field is used to indicate that the client SHOULD treat the website as sensitive and not keep traces of having visited the website. Exactly how this is done is left up to the client (see {{otr-client-mode}}).
 
-### Private Browsing
+TODO: define
 
-### Manual Editing
 
-### Clear-Site-Data
 
-# Definition (?)
+# Off-The-Record Client Mode {#otr-client-mode}
 
-Structured Field Value
+TODO: examples of what a client can do
+
+# Comparisons With Other Client-Side Approaches {#comparison}
+
+## Private Browsing
+
+## Manual Editing
+
+## Clear-Site-Data
 
 # Deployment Considerations
 
