@@ -11,7 +11,7 @@ This is the working area for the individual Internet-Draft, "Off-The-Record HTTP
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/brave-experiments/draft-sahib-httpbis-off-the-record/blob//CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/brave-experiments/off-the-record-ietf-spec/blob/main/CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
 The GitHub interface supports creating pull requests using the Edit (✏) button.
