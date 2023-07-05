@@ -110,6 +110,8 @@ The Request-OTR response header field is used to indicate that the client SHOULD
 
 The scope of the OTR session is defined as the requesting site's registered domain. Sites request an Off-The-Record session by including the `Request-OTR` header in the initial navigation request. On receiving this header, a client MAY ask for the user's consent before initiating an OTR session for the site (see {{consent}}).
 
+A header field value of `?0` i.e. false is treated as if the header was not present.
+
 <!-- TODO: can a site opt-out of OTR mode? how does it stop being in OTR mode? -->
 
 <!-- TODO: If the client is already in an OTR session for the site when it receives the `Request-OTR` header for the same site, the client SHOULD use the same session; optionally, a client MAY create a new OTR session for a site after a timeout.
