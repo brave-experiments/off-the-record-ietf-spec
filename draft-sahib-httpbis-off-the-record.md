@@ -57,7 +57,7 @@ informative:
 
 --- abstract
 
-This document specifies an HTTP response header field that enables a server to inform the client that the requested website should be treated as "off-the-record." The purpose is to indicate that the server considers the content sensitive in some way, and the client may choose not to retain any record of accessing it.
+This document specifies an HTTP response header field that enables a server to inform the client that the requested website should be treated as "off-the-record." The purpose is to indicate that the server considers the content sensitive in some way, and the client should not retain any record of accessing it.
 
 
 --- middle
