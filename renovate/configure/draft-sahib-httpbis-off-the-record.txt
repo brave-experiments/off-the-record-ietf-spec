@@ -4,8 +4,8 @@
 
 HTTP                                                         S. K. Sahib
 Internet-Draft                                            Brave Software
-Intended status: Standards Track                             7 July 2023
-Expires: 8 January 2024
+Intended status: Standards Track                         5 December 2023
+Expires: 7 June 2024
 
 
                 The Off-The-Record Response Header Field
@@ -17,7 +17,7 @@ Abstract
    server to inform the client that the requested website should be
    treated as "off-the-record."  The purpose is to indicate that the
    server considers the content sensitive in some way, and the client
-   may choose not to retain any record of accessing it.
+   should not retain any record of accessing it.
 
 About This Document
 
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 January 2024.
+   This Internet-Draft will expire on 7 June 2024.
 
 Copyright Notice
 
@@ -340,9 +340,9 @@ Table of Contents
 
    [COOKIES]  Bingler, S., West, M., and J. Wilander, "Cookies: HTTP
               State Management Mechanism", Work in Progress, Internet-
-              Draft, draft-ietf-httpbis-rfc6265bis-12, 10 May 2023,
+              Draft, draft-ietf-httpbis-rfc6265bis-13, 15 November 2023,
               <https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-
-              rfc6265bis-12>.
+              rfc6265bis-13>.
 
    [FREED_ET_AL]
               Freed, D., Palmer, J., Minchala, D., Levy, K., Ristenpart,
@@ -352,9 +352,9 @@ Table of Contents
 
    [IPV]      Celi, S., Guerra, J., and M. Knodel, "Intimate Partner
               Violence Digital Considerations", Work in Progress,
-              Internet-Draft, draft-celi-irtf-hrpc-ipvc-00, 13 March
+              Internet-Draft, draft-celi-irtf-hrpc-ipvc-01, 1 September
               2023, <https://datatracker.ietf.org/doc/html/draft-celi-
-              irtf-hrpc-ipvc-00>.
+              irtf-hrpc-ipvc-01>.
 
    [PSL]      Mozilla, "Public Suffix List", n.d.,
               <https://publicsuffix.org/>.
