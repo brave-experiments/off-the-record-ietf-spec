@@ -4,8 +4,8 @@
 
 HTTP                                                         S. K. Sahib
 Internet-Draft                                            Brave Software
-Intended status: Standards Track                            22 July 2023
-Expires: 23 January 2024
+Intended status: Standards Track                          7 January 2025
+Expires: 11 July 2025
 
 
                 The Off-The-Record Response Header Field
@@ -52,11 +52,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 23 January 2024.
+   This Internet-Draft will expire on 11 July 2025.
 
 Copyright Notice
 
-   Copyright (c) 2023 IETF Trust and the persons identified as the
+   Copyright (c) 2025 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -340,9 +340,9 @@ Table of Contents
 
    [COOKIES]  Bingler, S., West, M., and J. Wilander, "Cookies: HTTP
               State Management Mechanism", Work in Progress, Internet-
-              Draft, draft-ietf-httpbis-rfc6265bis-12, 10 May 2023,
+              Draft, draft-ietf-httpbis-rfc6265bis-18, 20 December 2024,
               <https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-
-              rfc6265bis-12>.
+              rfc6265bis-18>.
 
    [FREED_ET_AL]
               Freed, D., Palmer, J., Minchala, D., Levy, K., Ristenpart,
@@ -352,9 +352,9 @@ Table of Contents
 
    [IPV]      Celi, S., Guerra, J., and M. Knodel, "Intimate Partner
               Violence Digital Considerations", Work in Progress,
-              Internet-Draft, draft-celi-irtf-hrpc-ipvc-00, 13 March
+              Internet-Draft, draft-celi-irtf-hrpc-ipvc-01, 1 September
               2023, <https://datatracker.ietf.org/doc/html/draft-celi-
-              irtf-hrpc-ipvc-00>.
+              irtf-hrpc-ipvc-01>.
 
    [PSL]      Mozilla, "Public Suffix List", n.d.,
               <https://publicsuffix.org/>.
